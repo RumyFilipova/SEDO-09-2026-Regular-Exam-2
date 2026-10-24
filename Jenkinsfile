@@ -9,7 +9,7 @@ pipeline{
                 }
             steps{
             
-                bat "restore dependencies"
+                bat "dotnet restore"
             }
            
         }
